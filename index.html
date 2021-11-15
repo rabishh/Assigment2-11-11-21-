@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>welcome to resitration page</h1>
+        <h1>Login</h1>
+    </header>
+    <form>
+        <label for="firstname">FIRST NAME:</label>
+        <input type="text" placeholder="ENTER FIRST NAME" id="firstname"required><br>
+        <label for="lastname">LAST NAME:</label>
+        <input type="text" placeholder="ENTER LAST NAME" id="lastname"required><br>
+        <label for="userid">USER ID:</label>
+        <input pattern=".+@.+\..+" placeholder="USE YOUR EMAIL FOR USER ID" id="userid" required><br>
+        <label for="password">PASSWORD:</label>
+        <input type="password" minlength="8" placeholder="ENTER YOUR PASSWORD" id="password "><br>
+        <label for="phone no">PHONE NUMBER:</label>
+        <input type="text" pattern="[0-9]{10}" title="please enter valid phone no of 10 digit" id="phone no" required placeholder="ENTER YOUR PHONE NUMBER" required ><br>
+        <textarea cols="30" rows="10" placeholder="WRITE ABOUT YOUR SELF"id="discriptio"></textarea>
+        <br>
+        <input type="checkbox" checked>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam quibusdam dicta, iusto rem sit commodi molestiae unde laboriosam distinctio facere?<br>
+        <input type="checkbox">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam quibusdam dicta, iusto rem sit commodi molestiae unde laboriosam distinctio facere?<br>
+        <input type="checkbox">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam quibusdam dicta, iusto rem sit commodi molestiae unde laboriosam distinctio facere?<br>
+        <input type="checkbox">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam quibusdam dicta, iusto rem sit commodi molestiae unde laboriosam distinctio facere?<br>
+        <button type="reset"> RESET</button>
+        <button type="submit">SUBMIT</button>
+    </form>
+</body>
+</html>
